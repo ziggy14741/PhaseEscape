@@ -1,0 +1,2088 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zavis" at "2026-11-04T18:39:14.9330319Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 23881 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-04T18:39:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/zavis/My project (2)
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52873
+-parentPid
+44184
+-analyticsCloudUserId
+2475792351542
+-analyticsCloudProjectId
+73d2a236-1ecc-4ef7-96ef-1426811ae4ea
+-analyticsLocalProjectId
+03f81412280673a4bac30780635e58fe
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+6ddb43739b40a77ef04871c422f35c503b3bf311
+-cbmMachineId
+TEcypiL0aP0jE0NlaM2B0Mz16vs=
+-licensingIpc
+LicenseClient-zavis
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/zavis/My project (2)
+C:/Users/zavis/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [24876]  Target information:
+
+Player connection [24876]  * "[IP] 192.168.86.214 [Port] 0 [Flags] 2 [Guid] 3084272025 [EditorId] 3084272025 [Version] 1048832 [Id] WindowsEditor(7,Zaviers_laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24876] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24876] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 40.71 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zavis/My project (2)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon(TM) 840M Graphics (ID=0x1902)
+    Vendor:          ATI
+    VRAM:            11940 MB
+    App VRAM Budget: 11631 MB
+    Driver:          32.0.22042.23002
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016096 seconds.
+- Loaded All Assemblies, in  1.746 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.631 seconds
+Domain Reload Profiling: 3362ms
+	BeginReloadAssembly (593ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (217ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (721ms)
+			TypeCache.Refresh (715ms)
+				TypeCache.ScanAssembly (664ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (244ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (305ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zavis"
+[Licensing::IpcConnector] LicenseClient-zavis channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zavis-6000.3.23" at "2026-11-04T18:39:22.0875555Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34260, path: "C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              910918bce95e4ff891521bec72494b46
+  Correlation Id:          d6d18a50692410fb720da4c8e22857fd
+  External correlation Id: 13290263009759667
+  Machine Id:              TEcypiL0aP0jE0NlaM2B0Mz16vs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zavis-6000.3.23" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zavis-6000.3.23-notifications" at "2026-11-04T18:39:22.1240218Z"
+[Licensing::Module] Licensing Background thread has ended after 7.19s
+[Licensing::Module] Licensing is initialized (took 0.79s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475792351542-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.947 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.60 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.277 seconds
+Domain Reload Profiling: 6197ms
+	BeginReloadAssembly (664ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (173ms)
+	LoadAllAssembliesAndSetupDomain (1912ms)
+		LoadAssemblies (1402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (896ms)
+			TypeCache.Refresh (662ms)
+				TypeCache.ScanAssembly (621ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (3279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2773ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (507ms)
+			ProcessInitializeOnLoadAttributes (1631ms)
+			ProcessInitializeOnLoadMethodAttributes (585ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7422 unused Assets / (11.8 MB). Loaded Objects now: 8154.
+Memory consumption went from 173.2 MB to 161.4 MB.
+Total: 43.220700 ms (FindLiveObjects: 3.280200 ms CreateObjectMapping: 2.759600 ms MarkObjects: 18.714800 ms  DeleteObjects: 18.457700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 616463.436403 seconds.
+  path: Assets/Sprites/tilemap_56.asset
+  artifactKey: Guid(f84ed7e40edab7841857b4a30098c7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_56.asset using Guid(f84ed7e40edab7841857b4a30098c7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '515a0504060c53cb7ea0223180c29ea8') in 0.3718744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/tilemap_68.asset
+  artifactKey: Guid(91db307e24336b743986b19bc21704be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_68.asset using Guid(91db307e24336b743986b19bc21704be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8366284a3280a10cfc120f6f2a1321f') in 0.0449992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/tilemap_84.asset
+  artifactKey: Guid(9c10931a54129ef4bbd22b20b3e952b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_84.asset using Guid(9c10931a54129ef4bbd22b20b3e952b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de5781efbc74e8ad364a4f63905adff1') in 0.0365395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/tilemap_120.asset
+  artifactKey: Guid(eb26efbb211645b4fa6c4395a3b04144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_120.asset using Guid(eb26efbb211645b4fa6c4395a3b04144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '214e308451da9b418940accab48084c0') in 0.0304197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sprites/tilemap_134.asset
+  artifactKey: Guid(cf53d113cfd1a714c8c45b182148bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_134.asset using Guid(cf53d113cfd1a714c8c45b182148bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72666ede260629a88ac5a91924c14158') in 0.0343624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/tilemap_107.asset
+  artifactKey: Guid(5aed221633106ca4ba2c84b01615e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_107.asset using Guid(5aed221633106ca4ba2c84b01615e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da571e23249d2a7d3509931ae136d91') in 0.0398004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprites/tilemap_101.asset
+  artifactKey: Guid(6b2d88bc386e43e41827f22124440645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_101.asset using Guid(6b2d88bc386e43e41827f22124440645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e1eae319f32f3bc11d850ef05e9713') in 0.0389957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprites/tilemap_136.asset
+  artifactKey: Guid(d68e2b515710c7140a7ba02bf1c5e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_136.asset using Guid(d68e2b515710c7140a7ba02bf1c5e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f285a772f16efb9ab1a3394d08279a7d') in 0.0373237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/tilemap_100.asset
+  artifactKey: Guid(44f97c46955616c488673a973de0a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_100.asset using Guid(44f97c46955616c488673a973de0a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9d62a24cbb6e2250456c459ef173930') in 0.029005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/tilemap_116.asset
+  artifactKey: Guid(d6162c18e2b1fdd4ca9aaad1698de28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_116.asset using Guid(d6162c18e2b1fdd4ca9aaad1698de28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7d05614236e552cf20dd49012f5089') in 0.0304435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/tilemap_98.asset
+  artifactKey: Guid(7f46c24f3ab7b444e8413cd1fd7fe43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_98.asset using Guid(7f46c24f3ab7b444e8413cd1fd7fe43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cbcec47453a0daf0ecd86e8153f944d') in 0.0258143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sprites/tilemap_83.asset
+  artifactKey: Guid(02d02984bd5fbf9418320a8a2b5dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_83.asset using Guid(02d02984bd5fbf9418320a8a2b5dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd34e2b6022d736d267e06d1026858a06') in 0.040988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/tilemap_67.asset
+  artifactKey: Guid(3796f22d4badb8a48b8ce5877ebc7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_67.asset using Guid(3796f22d4badb8a48b8ce5877ebc7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '182719943178eb462bc008e1c29b6a54') in 0.0304213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/tilemap_122.asset
+  artifactKey: Guid(154a6ce1205283e44aae3c0940a75706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_122.asset using Guid(154a6ce1205283e44aae3c0940a75706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c15523bda596acfdf524d051901f868f') in 0.025828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/tilemap_80.asset
+  artifactKey: Guid(62213b23c67a39d49a888ce7e774c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_80.asset using Guid(62213b23c67a39d49a888ce7e774c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0afb5ad5141fa97c897c643acb7f58a4') in 0.0327011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/tilemap_133.asset
+  artifactKey: Guid(ec9fd82a600964f47a9dab1f6f6bd792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_133.asset using Guid(ec9fd82a600964f47a9dab1f6f6bd792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51cf148fdbcf9931cdaa9461cf21b1c2') in 0.0345776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/tilemap_62.asset
+  artifactKey: Guid(82084bb9672792a458102e3927cf66dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_62.asset using Guid(82084bb9672792a458102e3927cf66dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78bec05bec3b55bb0143e90970583812') in 0.0219754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/tilemap_105.asset
+  artifactKey: Guid(6357829467ba75a4a8f77a7d2e081195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_105.asset using Guid(6357829467ba75a4a8f77a7d2e081195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f784df61e9f24f9ae4ce92c6533af8c') in 0.0674152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/tilemap_74.asset
+  artifactKey: Guid(0b9444efbe3798346aa8ae4bf0b12a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_74.asset using Guid(0b9444efbe3798346aa8ae4bf0b12a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c560e965a39dcc81fdae11f626d4c5') in 0.0197842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/tilemap_128.asset
+  artifactKey: Guid(20e1aa46eba39f74f8001993e9d420d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_128.asset using Guid(20e1aa46eba39f74f8001993e9d420d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f169f08297be39d85505c812f33c8b9') in 0.0270595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/tilemap_89.asset
+  artifactKey: Guid(ae948bd93b7eb1449b61043bac8ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_89.asset using Guid(ae948bd93b7eb1449b61043bac8ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '744cd8c5fb96b43b03be21ea0673cac6') in 0.0319065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites/tilemap_126.asset
+  artifactKey: Guid(08ce15306ee457a46a11cab0d47bf613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_126.asset using Guid(08ce15306ee457a46a11cab0d47bf613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6e43aa3099d17fdac829d78db9dcdae') in 0.0291772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprites/tilemap_88.asset
+  artifactKey: Guid(03643e519f22caa499a469f5deb9be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_88.asset using Guid(03643e519f22caa499a469f5deb9be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0baba5fa9bdf2550ef92085eaf96f041') in 0.0429144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/tilemap_58.asset
+  artifactKey: Guid(2519ae728eab59a499a44b92ac703e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_58.asset using Guid(2519ae728eab59a499a44b92ac703e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0efbbbc92e7d61d8e87212d15db8e9d1') in 0.0395491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/tilemap_91.asset
+  artifactKey: Guid(7ad16d5d081371c44af8e7d9cd283c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_91.asset using Guid(7ad16d5d081371c44af8e7d9cd283c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1314dc1079a496fb977eadaff03be8e1') in 0.0279205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/tilemap_124.asset
+  artifactKey: Guid(cb1e14f41365edd4aa480b938b5b9f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tilemap_124.asset using Guid(cb1e14f41365edd4aa480b938b5b9f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4323211a58aac656e45502823f7dacd3') in 0.0458236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.754625 seconds.
+  path: Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png
+  artifactKey: Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png using Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7369661c4345b54ba1c7a5509a6732cc') in 2.2971279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 511
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.714064 seconds.
+  path: Assets/Sprites 2/map
+  artifactKey: Guid(1fbb32b2391bf6c4388fc15c6b71f20c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map using Guid(1fbb32b2391bf6c4388fc15c6b71f20c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '754a5c855f4c85f80e92955cb5106c48') in 0.0199672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.155818 seconds.
+  path: Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png
+  artifactKey: Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png using Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf32ad871d265f21bcd369a9cec95546') in 3.549227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 511
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.745636 seconds.
+  path: Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png
+  artifactKey: Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png using Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e72b3cb97494b1786b400a7839e4d273') in 0.9523296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 511
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.556537 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_167.asset
+  artifactKey: Guid(d7f6ebf21f456ec4994e611b832de6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_167.asset using Guid(d7f6ebf21f456ec4994e611b832de6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f34c464c93ed763d7e02b7d5b94f989') in 0.1607426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_332.asset
+  artifactKey: Guid(bb4e6c51a9aab284f85fd34d224174ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_332.asset using Guid(bb4e6c51a9aab284f85fd34d224174ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7aff7a5c0dd68f482347a9e810ab244') in 0.0387109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_250.asset
+  artifactKey: Guid(bf05b53b5474319459abe5078b23d41d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_250.asset using Guid(bf05b53b5474319459abe5078b23d41d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1330d89d2c56c40238722275e58cfaf') in 0.052361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_31.asset
+  artifactKey: Guid(ee6fb971031d1e14e8121b87077bd682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_31.asset using Guid(ee6fb971031d1e14e8121b87077bd682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c537a8ed551dadd92a871cb507842bbd') in 0.0314032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_338.asset
+  artifactKey: Guid(3f97b8a2ad483ce41b42bcfe4bbb1f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_338.asset using Guid(3f97b8a2ad483ce41b42bcfe4bbb1f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52bf620781085f1e34243d365ef5ae4b') in 0.039087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_472.asset
+  artifactKey: Guid(00805fba4e760304d821d5e3d02f2f3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_472.asset using Guid(00805fba4e760304d821d5e3d02f2f3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80ad5c3f3de05ee81e8089f83591748f') in 0.0227035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_304.asset
+  artifactKey: Guid(5a52de2668786bc4e8cbbbd5b32ecc07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_304.asset using Guid(5a52de2668786bc4e8cbbbd5b32ecc07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2728b90b02ba462675299fb291cc62e') in 0.026693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_43.asset
+  artifactKey: Guid(3c3da60d9efe0db47badf1a40a186e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_43.asset using Guid(3c3da60d9efe0db47badf1a40a186e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0302caf33c38125d3b64a2fe59693be') in 0.0320445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_504.asset
+  artifactKey: Guid(470e970f32de76542a15eeb654cba4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_504.asset using Guid(470e970f32de76542a15eeb654cba4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f194ff4b0acedac3d8a80e7008dd283a') in 0.027508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_311.asset
+  artifactKey: Guid(45492a4f8ceed184fabb5b68ae2943f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_311.asset using Guid(45492a4f8ceed184fabb5b68ae2943f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cdd4daa0680b3b4d4c04332d853fcb2') in 0.0202248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_213.asset
+  artifactKey: Guid(5479807008d06b84da27cac16cfea6c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_213.asset using Guid(5479807008d06b84da27cac16cfea6c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df519f97556fb042b42419a670935610') in 0.0252745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_292.asset
+  artifactKey: Guid(7102ba70e7cf2714ead074d5ab3782cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_292.asset using Guid(7102ba70e7cf2714ead074d5ab3782cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5bea6542d7986a742c7676ce7b94f5f') in 0.0211208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_389.asset
+  artifactKey: Guid(8a57c925dacebf24b9b8ac1ea47b101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_389.asset using Guid(8a57c925dacebf24b9b8ac1ea47b101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f25bfd4febf64eb750fea1a64016b8fe') in 0.0215704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_231.asset
+  artifactKey: Guid(e05ef3a8414a06042983a61a6dcaa405) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_231.asset using Guid(e05ef3a8414a06042983a61a6dcaa405) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64f630f2fbffca62fbf82032551bdea7') in 0.0242431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_361.asset
+  artifactKey: Guid(81e2029c080e4f2448fbfe5248fb4a1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_361.asset using Guid(81e2029c080e4f2448fbfe5248fb4a1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fe9e6cd00d7f4fbf1bceb97c421ef45') in 0.0228399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_428.asset
+  artifactKey: Guid(5b5f48d010d31654cb2f9aaac12be3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_428.asset using Guid(5b5f48d010d31654cb2f9aaac12be3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4c65f5874b957e0f1205a54fbe0b846') in 0.033138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_211.asset
+  artifactKey: Guid(4cd8ab548eaec9b4eb9e2d3570f3aad8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_211.asset using Guid(4cd8ab548eaec9b4eb9e2d3570f3aad8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29f3bf5bca9f98435151e5b85717ced0') in 0.0269019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_273.asset
+  artifactKey: Guid(36f1f4661dc5d8e469ae50d60bc8cdee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_273.asset using Guid(36f1f4661dc5d8e469ae50d60bc8cdee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce174e8cd5892ec0430ab4d170bdc4c7') in 0.0230908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_414.asset
+  artifactKey: Guid(313b9e64a19762b41b65e9e6fb02d1ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_414.asset using Guid(313b9e64a19762b41b65e9e6fb02d1ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '539e0a611e78243aa110b95c839b345f') in 0.0275847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_480.asset
+  artifactKey: Guid(9001f130869a529478c019796127cc6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_480.asset using Guid(9001f130869a529478c019796127cc6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8367a691708221cb1f01f24eda5d8f2f') in 0.0265884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_468.asset
+  artifactKey: Guid(67c56b1a25634914ea93093b57000832) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_468.asset using Guid(67c56b1a25634914ea93093b57000832) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86778d4946ce3d3e8574c35ea03b16d7') in 0.017702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_114.asset
+  artifactKey: Guid(f2815e5c6829c73498a37711f95ee7fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_114.asset using Guid(f2815e5c6829c73498a37711f95ee7fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '700a5219ca1b083e1ec90b0d32bbb53b') in 0.0242229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_395.asset
+  artifactKey: Guid(1cccfc07beb05df46919da572f04d1bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_395.asset using Guid(1cccfc07beb05df46919da572f04d1bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '975fca655f71ae7fc24c0303fc6b62e0') in 0.0191521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_189.asset
+  artifactKey: Guid(2e8dacd8d1fae9341a3d1da02b7be3da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_189.asset using Guid(2e8dacd8d1fae9341a3d1da02b7be3da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '560c6fc887808c0e1ade933d9366bef9') in 0.0311097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_337.asset
+  artifactKey: Guid(26b6568a406a7634e98a476e14711b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_337.asset using Guid(26b6568a406a7634e98a476e14711b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28617bbaaf81878809a887beacb5d627') in 0.0205011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_216.asset
+  artifactKey: Guid(1490fbd4d01eb494ba470d98e3e07d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_216.asset using Guid(1490fbd4d01eb494ba470d98e3e07d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '989823d470600c2bc908e02a1a9f9f9b') in 0.0205589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_259.asset
+  artifactKey: Guid(6b1aa7801f4b999448968a1d946de2aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_259.asset using Guid(6b1aa7801f4b999448968a1d946de2aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e59e3343bd0f7d719a7a8a5a8aa99f36') in 0.0242114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_128.asset
+  artifactKey: Guid(0698e8e892335ad429b047bbdb8a65fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_128.asset using Guid(0698e8e892335ad429b047bbdb8a65fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2efe1c386889552a22a3a4c124db2286') in 0.01901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_293.asset
+  artifactKey: Guid(e315dfae648a6984fb0b0526a160e052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_293.asset using Guid(e315dfae648a6984fb0b0526a160e052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e057e9688f7301a7bc1685b8d2a46ac') in 0.0201713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_221.asset
+  artifactKey: Guid(1d07a1fa50101aa4dae064e82e1b3fe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_221.asset using Guid(1d07a1fa50101aa4dae064e82e1b3fe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c73b8d597cd5e1a34c34707a4776192') in 0.0164069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_138.asset
+  artifactKey: Guid(ceab940200635d34d96ebd8482063fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_138.asset using Guid(ceab940200635d34d96ebd8482063fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'faa8dbbea43954cfc8a14507eb463af1') in 0.0182868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_312.asset
+  artifactKey: Guid(07c8b774847736544b96902feb9b9689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_312.asset using Guid(07c8b774847736544b96902feb9b9689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85f015cb48d937ab803cb0c6e94e8c0e') in 0.0163617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_391.asset
+  artifactKey: Guid(fbd9347d688cd9740bb26f103641f758) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_391.asset using Guid(fbd9347d688cd9740bb26f103641f758) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55b0b88097cca3c1f027638a8f94653d') in 0.0300828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_224.asset
+  artifactKey: Guid(96a1cc78833232146900cf5df55b5158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_224.asset using Guid(96a1cc78833232146900cf5df55b5158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15fa05cd2fc5cc29e7dae693896f485b') in 0.0169814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_269.asset
+  artifactKey: Guid(6f7f40a3308b6e3449b54a522e2c175d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_269.asset using Guid(6f7f40a3308b6e3449b54a522e2c175d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f13316d30b4aea664cac15d1ab9600d') in 0.0307308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_145.asset
+  artifactKey: Guid(fcb215e034292fe4eb2627bbcff75591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_145.asset using Guid(fcb215e034292fe4eb2627bbcff75591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f8201bac2ab28adb0aa1443dc4a592e') in 0.0193871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_102.asset
+  artifactKey: Guid(668d0f55a536b6746ac0e6c3e3438dbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_102.asset using Guid(668d0f55a536b6746ac0e6c3e3438dbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ed0365f0f86906a8270a87168255d36') in 0.0263061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_151.asset
+  artifactKey: Guid(e220ef1dc5988704ebf4ce01de212208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_151.asset using Guid(e220ef1dc5988704ebf4ce01de212208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4094ae99f6843bbbd6c5eebde1abe8d1') in 0.0204717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_50.asset
+  artifactKey: Guid(5ae81dbecb1eab445b2483437375c9e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_50.asset using Guid(5ae81dbecb1eab445b2483437375c9e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '363bb1a8ecadf23c8a058464569c51be') in 0.0157312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_134.asset
+  artifactKey: Guid(5f8d9b2179401e04789b940b87c96843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_134.asset using Guid(5f8d9b2179401e04789b940b87c96843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe790b3ffc7c58f12082550c7ac871a9') in 0.0221124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_315.asset
+  artifactKey: Guid(dc81ffbc7e8519744a5de51c083c4333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_315.asset using Guid(dc81ffbc7e8519744a5de51c083c4333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '952ec3537d01f98c8af24cfa0f72b6f5') in 0.0163952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_37.asset
+  artifactKey: Guid(c6f72f68eda98d6419a76926685c1b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_37.asset using Guid(c6f72f68eda98d6419a76926685c1b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaa6725280f48bd59511a5fc24fa6244') in 0.0189087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_241.asset
+  artifactKey: Guid(d973c2ee10bb05e47835b82c2133c8e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_241.asset using Guid(d973c2ee10bb05e47835b82c2133c8e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bbd5e07bb0b440be181ebb6cbe95fd0') in 0.020905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_253.asset
+  artifactKey: Guid(f693ee2e607c177418f7a9d7a1eb5f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_253.asset using Guid(f693ee2e607c177418f7a9d7a1eb5f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ac63450fc06329758ece00feab41b65') in 0.0190813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_306.asset
+  artifactKey: Guid(96175fa49b34d364b8235a48f9dd6545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_306.asset using Guid(96175fa49b34d364b8235a48f9dd6545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b09be5bf88c0d326ba3e41eb9a383acb') in 0.0276681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_285.asset
+  artifactKey: Guid(ff3f67dabca85604d88fa1e470fa1546) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_285.asset using Guid(ff3f67dabca85604d88fa1e470fa1546) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e34f30967196d0305caa1bf9eac6be8') in 0.0185322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_461.asset
+  artifactKey: Guid(3084a1317dd397b478a07e7eb0203154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_461.asset using Guid(3084a1317dd397b478a07e7eb0203154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0d354e7b7c21bb700322bdcf436b1bf') in 0.0203676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_388.asset
+  artifactKey: Guid(d390b8dd7e985fc48af3be8b97b40556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_388.asset using Guid(d390b8dd7e985fc48af3be8b97b40556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b20f69e0e0dde62d727c7ecca4a6e3e') in 0.0252704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_419.asset
+  artifactKey: Guid(48910d5c6bb2975489052e2f6e8459ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_419.asset using Guid(48910d5c6bb2975489052e2f6e8459ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '939279d7ea31169f97f9fda14bc289ba') in 0.0202713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_500.asset
+  artifactKey: Guid(00b6b00d41d054d439da11b78660edb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_500.asset using Guid(00b6b00d41d054d439da11b78660edb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e656e886cd365ffa11b6f0015a14a53c') in 0.0148722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_112.asset
+  artifactKey: Guid(f9ab2478e2efbd645ba90e2bae1b0064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_112.asset using Guid(f9ab2478e2efbd645ba90e2bae1b0064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e69a4de551d9991c46a148413c41e57') in 0.0212705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_97.asset
+  artifactKey: Guid(ce3dc03e7769cb74fb62a3196febfbc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_97.asset using Guid(ce3dc03e7769cb74fb62a3196febfbc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09c87187ee8319772be3fea822bd82e8') in 0.0180475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_90.asset
+  artifactKey: Guid(6c145805b1a8dc1438c818275df2cb3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_90.asset using Guid(6c145805b1a8dc1438c818275df2cb3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c034f9dce1711aa8339e6ce5bc954dc8') in 0.0141957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_264.asset
+  artifactKey: Guid(f587fd7188682ad43b4b9afcdb98bf3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_264.asset using Guid(f587fd7188682ad43b4b9afcdb98bf3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cd99dc09123bd2eb616274eec9ea96f') in 0.0226204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_359.asset
+  artifactKey: Guid(f6399b23589e4cb43a8985167eef0381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_359.asset using Guid(f6399b23589e4cb43a8985167eef0381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6edb20b271ccf3976a1abaed8056e372') in 0.0180917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_316.asset
+  artifactKey: Guid(cd6e62a8ca6e5584a850a46f4ab6e9f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_316.asset using Guid(cd6e62a8ca6e5584a850a46f4ab6e9f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18cbe593e24d51387041d5b4aa633d03') in 0.0206785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_449.asset
+  artifactKey: Guid(0f02ba32e071357488bb5ff6962ec425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_449.asset using Guid(0f02ba32e071357488bb5ff6962ec425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9d5158c4c4a081a746dffa7cf9caf8a') in 0.0174883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_5.asset
+  artifactKey: Guid(4227808220206634f982b245365739bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_5.asset using Guid(4227808220206634f982b245365739bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2ea9120031b5b7ddef99d12aa11204e') in 0.0177968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_375.asset
+  artifactKey: Guid(c2a411318ca5aaa48b4cd43d11447c81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_375.asset using Guid(c2a411318ca5aaa48b4cd43d11447c81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c41a510e451bbee05d0f3ef20ac41038') in 0.0349143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_421.asset
+  artifactKey: Guid(79f1c986c59a70c4bbc147c90fb54044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_421.asset using Guid(79f1c986c59a70c4bbc147c90fb54044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8734a44bf6d31e228b7ecb36df2c89a2') in 0.0300717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_121.asset
+  artifactKey: Guid(bbd2de9e4621adc408f5dfb22b7e70d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_121.asset using Guid(bbd2de9e4621adc408f5dfb22b7e70d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ceb1204772f57d774d722f8fb822999') in 0.01783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_354.asset
+  artifactKey: Guid(cbe7277d2d4a17542a6403bf7043b101) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_354.asset using Guid(cbe7277d2d4a17542a6403bf7043b101) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcd7c5270b03bd06586d1b5b74b2bde7') in 0.0313845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_402.asset
+  artifactKey: Guid(6576e32c87570934bb168629780dd503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_402.asset using Guid(6576e32c87570934bb168629780dd503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '942a12d4d3fa20dce295de0d1a95a5c1') in 0.0290221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_303.asset
+  artifactKey: Guid(7f5ee19d2cfceca4196234ad7005f73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_303.asset using Guid(7f5ee19d2cfceca4196234ad7005f73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '640448f1a94db0ad91c4a61909ea851b') in 0.0241099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_496.asset
+  artifactKey: Guid(0c2230c1128990c47b8f83f4d7973b36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_496.asset using Guid(0c2230c1128990c47b8f83f4d7973b36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7d5c37622f4dc873b0c4dce7a8a4b82') in 0.0216598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_302.asset
+  artifactKey: Guid(55ab8a0ba7ce18945ac6e541cfee3cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_302.asset using Guid(55ab8a0ba7ce18945ac6e541cfee3cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7a9f738f2afd080b63396811996af94') in 0.0277693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_152.asset
+  artifactKey: Guid(44171a85decb3f646bdeddcc2ab7f6ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_152.asset using Guid(44171a85decb3f646bdeddcc2ab7f6ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0f6b5b2e5f6cf294ddf42ad8c8f239d') in 0.019371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_320.asset
+  artifactKey: Guid(9d3cd230ff2a79a4c8e7c2d969e67d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_320.asset using Guid(9d3cd230ff2a79a4c8e7c2d969e67d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '852b2b5dc96de533ca30263e9ba5ccaf') in 0.0277782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_386.asset
+  artifactKey: Guid(58d639412285ed9429ef4c73e4cf4027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_386.asset using Guid(58d639412285ed9429ef4c73e4cf4027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db91cc2f9f8b0b692a98b9186209b3a4') in 0.0188382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_23.asset
+  artifactKey: Guid(e14b757afc0b17e4d8899d7a31699b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_23.asset using Guid(e14b757afc0b17e4d8899d7a31699b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '861cf955f61bbcdfad672c4ce92d64f1') in 0.0336247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_24.asset
+  artifactKey: Guid(e129ec6431c225940b83fa0828c88628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_24.asset using Guid(e129ec6431c225940b83fa0828c88628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80be03b1026df4d2dba0c69ec4994063') in 0.0207222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_334.asset
+  artifactKey: Guid(8478d8d61ee675f45bb24465e4ede43c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_334.asset using Guid(8478d8d61ee675f45bb24465e4ede43c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1e635e241e9804e2a68100ae6df84d5') in 0.0185001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_376.asset
+  artifactKey: Guid(abed484612edf884983f48ca92b7042a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_376.asset using Guid(abed484612edf884983f48ca92b7042a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd294f5723a149c64f44e267df1c7073e') in 0.0213802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_141.asset
+  artifactKey: Guid(131e75662f75c1045b430633122a9c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_141.asset using Guid(131e75662f75c1045b430633122a9c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e2aedc266c55ab5eedffc2a79703d47') in 0.0377733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_188.asset
+  artifactKey: Guid(761438327a1a6ac4985f97cc0c4a418c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_188.asset using Guid(761438327a1a6ac4985f97cc0c4a418c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2add25e5d398140ff2549af958c112cd') in 0.0156721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_276.asset
+  artifactKey: Guid(0d60b634e65e37240ace30894e44e849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_276.asset using Guid(0d60b634e65e37240ace30894e44e849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8df7a5ad7bde409f7041bc0873d34b38') in 0.0276048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_352.asset
+  artifactKey: Guid(ec44dbe45a8a1ae41bc0b7dc2a3278cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_352.asset using Guid(ec44dbe45a8a1ae41bc0b7dc2a3278cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e7207954ae3a1531218aee3a689676f') in 0.0196465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_133.asset
+  artifactKey: Guid(47cc04384f376d941b61b1b2477d018e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_133.asset using Guid(47cc04384f376d941b61b1b2477d018e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24ad7ab938e4d939c6b4ac06b40d24df') in 0.0185402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_327.asset
+  artifactKey: Guid(3d9ae8e9199ff334b91e45ae1343ce29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_327.asset using Guid(3d9ae8e9199ff334b91e45ae1343ce29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38bb635e5b7a32901c98d03293d1c965') in 0.0172659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_423.asset
+  artifactKey: Guid(1541d2a587bb46241b1aad886b2aec7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_423.asset using Guid(1541d2a587bb46241b1aad886b2aec7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '383bb459c0c5ad4336fe086ac7f272a1') in 0.0198239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_378.asset
+  artifactKey: Guid(ccf7f4fcbf6c0274dab5d47a3fa944d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_378.asset using Guid(ccf7f4fcbf6c0274dab5d47a3fa944d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f260c616b32edc5c7da8c4fe69d1ea3') in 0.018356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_411.asset
+  artifactKey: Guid(4f21d74a71959dc4c81b5e0fd6256898) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_411.asset using Guid(4f21d74a71959dc4c81b5e0fd6256898) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0248c7e7768505f741d04500049126d9') in 0.0198758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_484.asset
+  artifactKey: Guid(f2412184b56b35a4e93b4d7149f23f4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_484.asset using Guid(f2412184b56b35a4e93b4d7149f23f4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '195ce6aa563eed1f523cba4bf36f6e03') in 0.0149928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_78.asset
+  artifactKey: Guid(ffa6517aa7154f740bee9e0b91375346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_78.asset using Guid(ffa6517aa7154f740bee9e0b91375346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '786be6cb44b2dac9c618212a94251e67') in 0.018341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_0.asset
+  artifactKey: Guid(604144729e1ce5a4f94274c21b757f55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_0.asset using Guid(604144729e1ce5a4f94274c21b757f55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ed46e6bdf11591b4bfff54dc0169c19') in 0.0275855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_44.asset
+  artifactKey: Guid(313277ca736d8364387696acff879af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_44.asset using Guid(313277ca736d8364387696acff879af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa387ff0f87ac1e8d70c9b90bbef2520') in 0.021158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_54.asset
+  artifactKey: Guid(e88781180a532624ca1d322727bdb64b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_54.asset using Guid(e88781180a532624ca1d322727bdb64b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be6601994d9b6a588d966e8540dcc1a0') in 0.0248735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_274.asset
+  artifactKey: Guid(d4459dba6c076ef4f9cd413a9f28bb17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_274.asset using Guid(d4459dba6c076ef4f9cd413a9f28bb17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2f3becb58a63d80bd5c7a66618844df') in 0.0253287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_450.asset
+  artifactKey: Guid(4fbedd335032af34b98e1507595573f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_450.asset using Guid(4fbedd335032af34b98e1507595573f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '657e906b305c0be650e4073af6cebb51') in 0.0179056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_187.asset
+  artifactKey: Guid(31e1b64d914a6414ca36e8b1c54c2951) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_187.asset using Guid(31e1b64d914a6414ca36e8b1c54c2951) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e61e3006bae343993194305075625611') in 0.0333037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_275.asset
+  artifactKey: Guid(32950b02eddb24a4ab27f46f8ab092c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_275.asset using Guid(32950b02eddb24a4ab27f46f8ab092c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e65833896a0c08416a3cf0cc7bf03ee') in 0.024296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_288.asset
+  artifactKey: Guid(d9eab042c157c9c428ca368a5c8986de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_288.asset using Guid(d9eab042c157c9c428ca368a5c8986de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecc766c3d511fd33477589ca41b89ad2') in 0.0347188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_52.asset
+  artifactKey: Guid(e1aaf44dbe9417c4da0a934f36d39015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_52.asset using Guid(e1aaf44dbe9417c4da0a934f36d39015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c0d482b012be7db073f70623bf8b011') in 0.0288894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_479.asset
+  artifactKey: Guid(a67098e9832592b4f83e1ce7f3ef9281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_479.asset using Guid(a67098e9832592b4f83e1ce7f3ef9281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '800cc03e19fa5e700a9c9ecf4c197b11') in 0.0285506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_58.asset
+  artifactKey: Guid(7c976af9c4e457e4fac67f0600f01e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_58.asset using Guid(7c976af9c4e457e4fac67f0600f01e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54cc54300ce068104f62b88612c133f7') in 0.0324788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_399.asset
+  artifactKey: Guid(206151aea2f60a04f8e2349e210e8996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_399.asset using Guid(206151aea2f60a04f8e2349e210e8996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2713217e69893c827ec057c6f452386b') in 0.0253153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_447.asset
+  artifactKey: Guid(0728bb42eaef7a7449c6db713bf7639b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_447.asset using Guid(0728bb42eaef7a7449c6db713bf7639b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e14d7f18beffdf1f58bd3c572a34d8e7') in 0.0423891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_463.asset
+  artifactKey: Guid(e18788debd5672844882aa583bbe088e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_463.asset using Guid(e18788debd5672844882aa583bbe088e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68f259102aef4c0f3e7837a3282bcff5') in 0.0617826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_168.asset
+  artifactKey: Guid(5a7d17ff4266c0345a68fcdcf379de0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_168.asset using Guid(5a7d17ff4266c0345a68fcdcf379de0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b8f0438d7c669c0db4a9023262fcfd7') in 0.0171077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_319.asset
+  artifactKey: Guid(11eb4244c1245794c9b120891125302f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_319.asset using Guid(11eb4244c1245794c9b120891125302f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '450f27ec892b79d09ebdae9bbcb01ffe') in 0.0182835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_390.asset
+  artifactKey: Guid(6172f045e22868243851883f9a7c918e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_390.asset using Guid(6172f045e22868243851883f9a7c918e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10f3b7c3e434c076e26b89a7d353a013') in 0.0160942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_365.asset
+  artifactKey: Guid(681fcbe8646d8654a875e6048387f418) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_365.asset using Guid(681fcbe8646d8654a875e6048387f418) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06411439cc62cd3ea8437e792277151a') in 0.0169191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_434.asset
+  artifactKey: Guid(6c7a3cd8cf6c38f4f97f99e90aeeecb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_434.asset using Guid(6c7a3cd8cf6c38f4f97f99e90aeeecb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6644782a89475b4851ece30f89dea6be') in 0.0440342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_452.asset
+  artifactKey: Guid(8aa9bb336176703439e932964a769bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_452.asset using Guid(8aa9bb336176703439e932964a769bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37c3e1b12a5d72a7f6d4f6eefb3880e8') in 0.021858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_366.asset
+  artifactKey: Guid(87597541982aeec4895a3ce685e747ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_366.asset using Guid(87597541982aeec4895a3ce685e747ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba9c99c8d3f25a9bb21ac59938b54c79') in 0.0183591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_448.asset
+  artifactKey: Guid(91023da5be22f524a8886c692f9bfd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_448.asset using Guid(91023da5be22f524a8886c692f9bfd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e623a504803c8245ccb0df9473bb9559') in 0.0269117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_345.asset
+  artifactKey: Guid(805cf3d19fe3f0a42b57bdcba96bcde6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_345.asset using Guid(805cf3d19fe3f0a42b57bdcba96bcde6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c244b753a5f90d3a0969050966be4e32') in 0.0313847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_426.asset
+  artifactKey: Guid(268e62a1bb001ec419d8737fd78a271e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_426.asset using Guid(268e62a1bb001ec419d8737fd78a271e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c30f4bb39a1738e454182f2476cc371') in 0.0362168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_3.asset
+  artifactKey: Guid(82b7d7a6065fe3841a0a0e60dfb9ba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_3.asset using Guid(82b7d7a6065fe3841a0a0e60dfb9ba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87b3209f7fbb22e9cced982d821d6fd5') in 0.0173839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_410.asset
+  artifactKey: Guid(0185f337690bd434db45322cd5111979) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_410.asset using Guid(0185f337690bd434db45322cd5111979) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f131b05381ffb96eb0a33a2efaef01c') in 0.0193411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_485.asset
+  artifactKey: Guid(1c3c84abdb90e30478d1c228d6afcb54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_485.asset using Guid(1c3c84abdb90e30478d1c228d6afcb54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd42810e92c6d9b917186c3406b26a447') in 0.0232419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_108.asset
+  artifactKey: Guid(16b6acc723ec3d2489d024a5e7128333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_108.asset using Guid(16b6acc723ec3d2489d024a5e7128333) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6648954f2dc8b521d73fd14bfa16ae63') in 0.0209915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_117.asset
+  artifactKey: Guid(d7a42ff566034f346a37554cc3e8304a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_117.asset using Guid(d7a42ff566034f346a37554cc3e8304a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19130a6d027908a89f4398f1ac8b8daa') in 0.0260192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_301.asset
+  artifactKey: Guid(ee20b01fe0d4f8945afa349191fdcb57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_301.asset using Guid(ee20b01fe0d4f8945afa349191fdcb57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6433707f56cf5514c8cd37c36f38956b') in 0.0256308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_60.asset
+  artifactKey: Guid(de546d959c3e5f6428deafccbbe20e60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_60.asset using Guid(de546d959c3e5f6428deafccbbe20e60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce1c670cbecb55a08eb734d0c76f37b3') in 0.0279661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_477.asset
+  artifactKey: Guid(00e58279afe97de43affcdd08f2fedb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_477.asset using Guid(00e58279afe97de43affcdd08f2fedb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c877c6039ed50e796b587ce8b18ac90') in 0.0280383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_287.asset
+  artifactKey: Guid(a80762ebf3be92f479a3cf684a092441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_287.asset using Guid(a80762ebf3be92f479a3cf684a092441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d65803e1a184a2dd5fb79cfe679f6ef') in 0.0468867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_56.asset
+  artifactKey: Guid(0e1cac63cd8f68c4791a6f7a4853ade5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_56.asset using Guid(0e1cac63cd8f68c4791a6f7a4853ade5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01d2fb68bd8f356b0413a2e75aba1373') in 0.0298043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_173.asset
+  artifactKey: Guid(e3f607aefb45ea942a00466ab1e0686f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_173.asset using Guid(e3f607aefb45ea942a00466ab1e0686f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bb775a4dd7ef982e4987c1bc8ba37da') in 0.0268499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_445.asset
+  artifactKey: Guid(d4382e6db4c2548409e1867536aa6362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_445.asset using Guid(d4382e6db4c2548409e1867536aa6362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3298c858ae6456a01f4d5a129f3a380c') in 0.035337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_150.asset
+  artifactKey: Guid(b34157d13ba1eb441870702ce3f17d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_150.asset using Guid(b34157d13ba1eb441870702ce3f17d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '836cfb8beb6eede543e4bfe1fddb3aab') in 0.0220977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_437.asset
+  artifactKey: Guid(96779dcc41d62ce48be858878fa9b4b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_437.asset using Guid(96779dcc41d62ce48be858878fa9b4b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbde65ea59ef342301a9511ef90f1e63') in 0.0178995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_195.asset
+  artifactKey: Guid(caca3967c97e282468492de7a99cbea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_195.asset using Guid(caca3967c97e282468492de7a99cbea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '838d7ed672baac7c9e53a090b4c71abb') in 0.0308153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_363.asset
+  artifactKey: Guid(45a50a5c45730814e9dbf3f0da38c900) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_363.asset using Guid(45a50a5c45730814e9dbf3f0da38c900) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0571e3cd657f0278a76a9f8e4a5cadc6') in 0.0179528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_435.asset
+  artifactKey: Guid(798802739b3581240938f199192285fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_435.asset using Guid(798802739b3581240938f199192285fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1daf27a2afaf6690a7ffd46cdc8e030e') in 0.0226635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_384.asset
+  artifactKey: Guid(db87c71b46eb9734d917a773cdab2297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_384.asset using Guid(db87c71b46eb9734d917a773cdab2297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dea03621b9df7e6ce60d04b9e1ebf050') in 0.0227452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_142.asset
+  artifactKey: Guid(ca318c30158b51b46909cd2f50bb9f0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_142.asset using Guid(ca318c30158b51b46909cd2f50bb9f0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27065a6a1a50344866a10c064e81a689') in 0.0273676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_440.asset
+  artifactKey: Guid(90652617f44f8004a9300a721a022283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_440.asset using Guid(90652617f44f8004a9300a721a022283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35678c2b014267f2173e8e3733e78b0e') in 0.0360222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_493.asset
+  artifactKey: Guid(c3ea872fbe0353c4ab841a35bea9ca4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_493.asset using Guid(c3ea872fbe0353c4ab841a35bea9ca4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab63b9896494e9b22ef84fefb19a0689') in 0.0328354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_233.asset
+  artifactKey: Guid(04fdfd5e765e98e42801fa467292ea43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_233.asset using Guid(04fdfd5e765e98e42801fa467292ea43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ae9725a1ee34ffc105e793defb5391e') in 0.0197706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_72.asset
+  artifactKey: Guid(da270d91be868fe4faeb25bca6a7b90e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_72.asset using Guid(da270d91be868fe4faeb25bca6a7b90e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b053c9a072499ad98d93d70948aab6e2') in 0.0317311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_317.asset
+  artifactKey: Guid(455fed791dd54f140b6ae0fbb319f96a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_317.asset using Guid(455fed791dd54f140b6ae0fbb319f96a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '836da3d27b6aff6ef4be3ed4c932ef45') in 0.0261687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_39.asset
+  artifactKey: Guid(104011da1e404ba46a6a617ee81dbe6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_39.asset using Guid(104011da1e404ba46a6a617ee81dbe6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e00cb085331b53428d3a2c16b7694a7e') in 0.0252801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_214.asset
+  artifactKey: Guid(a6619aecd1daa8e45b0df32d9b5daafb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_214.asset using Guid(a6619aecd1daa8e45b0df32d9b5daafb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e062e6d93de3f028d4ffc96440766390') in 0.0282701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_105.asset
+  artifactKey: Guid(184d9a34626d6bd4ba9cd9651a9a15d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_105.asset using Guid(184d9a34626d6bd4ba9cd9651a9a15d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fca6eb6209541b0d81dc2f192dbcf14f') in 0.0254392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_476.asset
+  artifactKey: Guid(1b301ec55ea27eb44ba91812b88e9aa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_476.asset using Guid(1b301ec55ea27eb44ba91812b88e9aa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fd549083098361ab09d273d58788654') in 0.0378195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_77.asset
+  artifactKey: Guid(7a5bb7d4f73f89d4ca5ca70fd363b88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_77.asset using Guid(7a5bb7d4f73f89d4ca5ca70fd363b88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29fb3f0940e25252b01de834e0121a57') in 0.0255737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_176.asset
+  artifactKey: Guid(8a1861cbea91a634ea4371ccd1055e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_176.asset using Guid(8a1861cbea91a634ea4371ccd1055e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f1ddfbd82cce62f3b6c15e921a978e4') in 0.0288531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_94.asset
+  artifactKey: Guid(59dfeb20e93e28a418cf4f9881eb9931) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_94.asset using Guid(59dfeb20e93e28a418cf4f9881eb9931) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd0d94a87ca4481531a38af7b71a0a85') in 0.0333737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_322.asset
+  artifactKey: Guid(1b174bcf279bb2946bf059282a8feef8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_322.asset using Guid(1b174bcf279bb2946bf059282a8feef8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18f1fe735c4738eb3c714fc35c1eceae') in 0.0225239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_204.asset
+  artifactKey: Guid(f2867df4101dd984baf9b08c553e6c92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_204.asset using Guid(f2867df4101dd984baf9b08c553e6c92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4f6348c5577626a90eafcd308a6a2f8') in 0.0272246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_161.asset
+  artifactKey: Guid(bae83964f8c484946bef6313b62c131d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_161.asset using Guid(bae83964f8c484946bef6313b62c131d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '564e9be86ce7d65089f6ca942d6f109a') in 0.0266858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_310.asset
+  artifactKey: Guid(2f4c5b9f96c0b214ca7e1e7a48418e4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_310.asset using Guid(2f4c5b9f96c0b214ca7e1e7a48418e4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbc0a486c8646ecb22371f0dd7de6c73') in 0.0184041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_180.asset
+  artifactKey: Guid(c0601112380b91c43a2888b91873505e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_180.asset using Guid(c0601112380b91c43a2888b91873505e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f9cea84f1d5906e06ad712d5949b4ba') in 0.0228254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_118.asset
+  artifactKey: Guid(85a8b52580c94e04f8e408d3551fb6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_118.asset using Guid(85a8b52580c94e04f8e408d3551fb6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0949e1a65699cffb23c09dbe5a3521f1') in 0.0205065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_279.asset
+  artifactKey: Guid(9fc8c22c6134ac34bb63ffe9bb42efa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_279.asset using Guid(9fc8c22c6134ac34bb63ffe9bb42efa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b88540207bb82e2c8a7078ae4cfa336a') in 0.0328112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_343.asset
+  artifactKey: Guid(4babf7b1a6c87a54d8e4927776832ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_343.asset using Guid(4babf7b1a6c87a54d8e4927776832ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37f9db3844f83b7203c27da42fd5bffe') in 0.0201174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_271.asset
+  artifactKey: Guid(a052c5945f436ab48be6729c15d7fa85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_271.asset using Guid(a052c5945f436ab48be6729c15d7fa85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91c1a398eace22b9fb2fb28c9a58a1a4') in 0.0256043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_136.asset
+  artifactKey: Guid(68dbb382e2ea60643994829e7fafbcce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_136.asset using Guid(68dbb382e2ea60643994829e7fafbcce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d6626403cb1f63d84c1d39ac0067729') in 0.0293385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_471.asset
+  artifactKey: Guid(be03951adff9b674cb7e76c68440a36d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_471.asset using Guid(be03951adff9b674cb7e76c68440a36d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05fa25b56141b5b5952c9e056d294b54') in 0.0340984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_323.asset
+  artifactKey: Guid(0cab27cdefe50454c9365834cca5e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_323.asset using Guid(0cab27cdefe50454c9365834cca5e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f61ac1df3804b3de0f9f3a75e51028f') in 0.0334115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_79.asset
+  artifactKey: Guid(27c8a68d1334e1c4987824e8d14c1e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_79.asset using Guid(27c8a68d1334e1c4987824e8d14c1e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea4a640865ac785128e2638dc25a1dfa') in 0.0221824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_431.asset
+  artifactKey: Guid(07853a9233b4e934e85abaf742374abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_431.asset using Guid(07853a9233b4e934e85abaf742374abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c605587936eee3c5395285a19dbbafe') in 0.0224444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_247.asset
+  artifactKey: Guid(ef6522b91c2a6594fb948ddaed0fe394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_247.asset using Guid(ef6522b91c2a6594fb948ddaed0fe394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd227b11c5876717889df1a486da1d286') in 0.0220361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_505.asset
+  artifactKey: Guid(2bacc62adf9ebab4f8b21820e357354d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_505.asset using Guid(2bacc62adf9ebab4f8b21820e357354d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '847fdadba88f7e7af37edfe1d97337c3') in 0.0259806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_149.asset
+  artifactKey: Guid(8abda7c21cb02be47bebf453cd92aa3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_149.asset using Guid(8abda7c21cb02be47bebf453cd92aa3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c63cd34982c612f2f68d46edd231b6eb') in 0.0208753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_11.asset
+  artifactKey: Guid(82b6dd249fc0d09449b90079c31c912d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_11.asset using Guid(82b6dd249fc0d09449b90079c31c912d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '719711d4e4d706d0737bd07935ffd483') in 0.0315462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_55.asset
+  artifactKey: Guid(88895217033bffb47a4a7a481e2eb22a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_55.asset using Guid(88895217033bffb47a4a7a481e2eb22a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82443d3cd333bfddb5f787a8ce473b3c') in 0.0208568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_272.asset
+  artifactKey: Guid(d91ed935ee4bc6d4eaf254f1751a57a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_272.asset using Guid(d91ed935ee4bc6d4eaf254f1751a57a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2765f824c7966e28ecb2bf4e71a14789') in 0.0204268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_456.asset
+  artifactKey: Guid(88c024f6c2eb9ba4dae6db9353a3e4b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_456.asset using Guid(88c024f6c2eb9ba4dae6db9353a3e4b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4c4756524534ac77f769b7b789898f1') in 0.0310133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_1.asset
+  artifactKey: Guid(5aa7bb981ea9d0e4c99efdb9691307b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_1.asset using Guid(5aa7bb981ea9d0e4c99efdb9691307b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10b233c72af33f7ee07efec594d2ae0d') in 0.0257536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_212.asset
+  artifactKey: Guid(2ef476dcc591be048857d8f4d2d0b625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_212.asset using Guid(2ef476dcc591be048857d8f4d2d0b625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd492a5eead4976281e8a6a23421145bc') in 0.0336438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_441.asset
+  artifactKey: Guid(20a210eab59efb24982124d451f53353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_441.asset using Guid(20a210eab59efb24982124d451f53353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a0b9326596dc5fe8ecda8ac5e8ef27e') in 0.026166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_491.asset
+  artifactKey: Guid(c6f5d1b357a8be04f9bfecaf3c098fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_491.asset using Guid(c6f5d1b357a8be04f9bfecaf3c098fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92eccdb2b8571b5139557214c2df38e5') in 0.0315426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_325.asset
+  artifactKey: Guid(3086ac0c738f05846857387472b4aebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_325.asset using Guid(3086ac0c738f05846857387472b4aebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '941c93b0b57dc621bd4f4d254059023f') in 0.0246432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_408.asset
+  artifactKey: Guid(6ac0a80a16a16d14e9c87326bbc98f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_408.asset using Guid(6ac0a80a16a16d14e9c87326bbc98f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7920f4bfd1f1d002001e42eae2ad109a') in 0.0269875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_377.asset
+  artifactKey: Guid(33499d0ccaf414f4aab1bd1cba00b0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_377.asset using Guid(33499d0ccaf414f4aab1bd1cba00b0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97673cd6e6c2563073ae25a3256ef417') in 0.022687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_139.asset
+  artifactKey: Guid(3b75a979befdfa448ae0225434f2ea94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_139.asset using Guid(3b75a979befdfa448ae0225434f2ea94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e7f340cfceee6b1900baeb170a044ce') in 0.016317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_59.asset
+  artifactKey: Guid(931c49b64a48fc14d8218bc06727cb81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_59.asset using Guid(931c49b64a48fc14d8218bc06727cb81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa7916c4f9b2461a393371fded3383e8') in 0.0176665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_355.asset
+  artifactKey: Guid(1a74431f29dafef41b6f8a86c753a569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_355.asset using Guid(1a74431f29dafef41b6f8a86c753a569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2eb04d6fcdfabbac7be59b0736c3f531') in 0.0169351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_455.asset
+  artifactKey: Guid(1ecae0f2efa8b754aaf0f7875790c8e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_455.asset using Guid(1ecae0f2efa8b754aaf0f7875790c8e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26ffa7d112ca12e062061f14f5aa10c7') in 0.0193312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_381.asset
+  artifactKey: Guid(f3e0fcf951ca7e644869fbc70d9250b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_381.asset using Guid(f3e0fcf951ca7e644869fbc70d9250b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58e83ff176b563f3707bf624f65620ad') in 0.0464607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_469.asset
+  artifactKey: Guid(f85173117c009c9448510d6c22c841af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_469.asset using Guid(f85173117c009c9448510d6c22c841af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9cd49431473e3ab82f63b00d9e9ecce1') in 0.0290117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_382.asset
+  artifactKey: Guid(6f8ed8d53ec3ccb46aa2c1005984c2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_382.asset using Guid(6f8ed8d53ec3ccb46aa2c1005984c2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dee882bf6c2728bec019e2f6162e7bd') in 0.0222329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_125.asset
+  artifactKey: Guid(61129481076329c43b57e6f831ac059a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_125.asset using Guid(61129481076329c43b57e6f831ac059a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38ae0bc790dc908a64efa363e1b7b424') in 0.0303118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_321.asset
+  artifactKey: Guid(fe29323344d264e46af2cc8c31553d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_321.asset using Guid(fe29323344d264e46af2cc8c31553d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ac8bf06197be7c1657bbc5ae6a37437') in 0.0320353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_367.asset
+  artifactKey: Guid(dbd291328d3a5b8448331788a4133354) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_367.asset using Guid(dbd291328d3a5b8448331788a4133354) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bfbdea800ff56f4e745a5df013f6285') in 0.0174475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_229.asset
+  artifactKey: Guid(50aa369eb285165488e2b085c261f374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_229.asset using Guid(50aa369eb285165488e2b085c261f374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '313d1863b8fcabae6d844c964ca774fb') in 0.0270367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_290.asset
+  artifactKey: Guid(832b981ae86661444827f26c07802b26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_290.asset using Guid(832b981ae86661444827f26c07802b26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb7c86247c1cdc37b9b35426760087df') in 0.0284049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_170.asset
+  artifactKey: Guid(99132d7c607ac794cb1153ce54ea092b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_170.asset using Guid(99132d7c607ac794cb1153ce54ea092b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd05c2bffbdc1299ec524b4b70d9be7e2') in 0.0175658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_40.asset
+  artifactKey: Guid(050105ed7ddca404cbefb74030949a29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_40.asset using Guid(050105ed7ddca404cbefb74030949a29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef10b0961eb2135de5d7a9233dd1fda2') in 0.0338382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_237.asset
+  artifactKey: Guid(2f9752053ca975f4492abe22879d8c39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_237.asset using Guid(2f9752053ca975f4492abe22879d8c39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ae39e2b8386a40ad902aa27691d1928') in 0.0320059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_458.asset
+  artifactKey: Guid(eeba4188301bb2449a996d91157ad848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_458.asset using Guid(eeba4188301bb2449a996d91157ad848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '218fbfe8291b31e4b37bd2a5dd59c994') in 0.0270792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_466.asset
+  artifactKey: Guid(342e97bf6e6e92e40aeffc189028a75d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_466.asset using Guid(342e97bf6e6e92e40aeffc189028a75d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7131124b53468d85fcfbe074d370dbff') in 0.0325434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_197.asset
+  artifactKey: Guid(10e99efb2588d3e41b5d33b8199a5454) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_197.asset using Guid(10e99efb2588d3e41b5d33b8199a5454) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '339eeeaafcbcb68f98f012a0474758e3') in 0.0274343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_18.asset
+  artifactKey: Guid(81312d7f15f80f84aa5f4e5f68c14ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_18.asset using Guid(81312d7f15f80f84aa5f4e5f68c14ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9060ca98925a0ff6e02829f7f05dd4c4') in 0.031776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_432.asset
+  artifactKey: Guid(fc486e4a301f279478e430e31f7608b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_432.asset using Guid(fc486e4a301f279478e430e31f7608b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86587f84ab1da4a4203e3f728604d37b') in 0.0324537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_67.asset
+  artifactKey: Guid(c6b469012a7d765418bcd4ed0f47ba57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_67.asset using Guid(c6b469012a7d765418bcd4ed0f47ba57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1ddfe266bc7bfe4cdd427fec7f7e856') in 0.0170607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_330.asset
+  artifactKey: Guid(9e53d2b0b32df29408d82b67718eb961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_330.asset using Guid(9e53d2b0b32df29408d82b67718eb961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9d28c2277e3488bccee577b28b50ec9') in 0.0281284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_61.asset
+  artifactKey: Guid(40382e42ceb555a488f6cd6aef158e80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_61.asset using Guid(40382e42ceb555a488f6cd6aef158e80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aed505ec76caedac771ef85c6e164e22') in 0.0272853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_436.asset
+  artifactKey: Guid(7d7fde85f65f9a6458be06bc58f32a72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_436.asset using Guid(7d7fde85f65f9a6458be06bc58f32a72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bd9ca88a74c30e573f637684d2d494d') in 0.0210246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_446.asset
+  artifactKey: Guid(d42ccbf22c0edce48bc63b93d818d646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_446.asset using Guid(d42ccbf22c0edce48bc63b93d818d646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a480b2eeb14cd0af5385ffe8c6eac468') in 0.0189839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_103.asset
+  artifactKey: Guid(c26565218602deb4da9d415e237af904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_103.asset using Guid(c26565218602deb4da9d415e237af904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e208dd8913eee0966a1656ce8debdb4a') in 0.0183937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_289.asset
+  artifactKey: Guid(4fdfb2183b3dd1845941877b90c5c639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_289.asset using Guid(4fdfb2183b3dd1845941877b90c5c639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21383d54c9c9cb0173d20ee21001d0a9') in 0.0208721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_246.asset
+  artifactKey: Guid(09885ad3d7e154342a3b5d4c7086c385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_246.asset using Guid(09885ad3d7e154342a3b5d4c7086c385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42e8b5a73151a062794b2d18259ccc9d') in 0.0212258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_420.asset
+  artifactKey: Guid(ce2c2cff49161d8408e091799cecd924) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_420.asset using Guid(ce2c2cff49161d8408e091799cecd924) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b327558317cab9a7be0b9971d862386') in 0.0216208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_298.asset
+  artifactKey: Guid(49116a3200d08654e8f5c4de195cbf94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_298.asset using Guid(49116a3200d08654e8f5c4de195cbf94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '721d160b765d7c0c5423a87226e83fa6') in 0.0363285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites 2/map/roguelikeDungeon_transparent_101.asset
+  artifactKey: Guid(5958fb6ee7f264b4a8ebf0ace371ac34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/map/roguelikeDungeon_transparent_101.asset using Guid(5958fb6ee7f264b4a8ebf0ace371ac34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c37ba33c19a9afec48147f54965c2953') in 0.0376123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.186055 seconds.
+  path: Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png
+  artifactKey: Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites 2/Spritesheet/roguelikeDungeon_transparent.png using Guid(e24ceed12ecdbf84a8db52665f40adad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9cfcae251c9711b4f9d4105b8cfd7421') in 0.9847619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 511
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
